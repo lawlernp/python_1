@@ -50,6 +50,9 @@ a,b,c = 1,2,"john"
         - long (long integers, they can also be represented in octal and hexadecimal)
         - float (floating point real values)
         - complex (complex numbers)
+    
+    - Number data types store numeric values. They are immutable data types, means that changing the value of a number data type results in a newly allocated object.
+
 
  - List
     - The most versatile of Python's compound data types. A list contains items separated by commas and enclosed within square brackets ([]). To some extent, lists are similar to arrays in C. One difference between them is that all the items belonging to a list can be of different data type.

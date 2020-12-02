@@ -16,4 +16,14 @@ print(string[::-1])
 # print(list + tinylist) # Prints concatenated lists
 
 list = ['a', 'b', 'c', 'd']
-print(list[1:1])
+print(list[1:3])
+
+var = 100
+if ( var == 100 ) : print ("Value of expression is 100")
+print("Good bye!")
+
+import calendar
+
+cal = calendar.month(2020, 12)
+print ("Here is the calendar:")
+print (cal)

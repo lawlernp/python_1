@@ -26,4 +26,20 @@ import calendar
 
 cal = calendar.month(2020, 12)
 print ("Here is the calendar:")
-print (cal)
+# print (cal)
+
+def printme(str):
+    print(str)
+    return
+
+printme(cal)
+
+def makeDifferent(thing):
+    thing = "yo"
+    print("yo", thing)    
+    return
+
+same = 2
+
+print(same)
+makeDifferent(same)

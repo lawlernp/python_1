@@ -43,3 +43,22 @@ same = 2
 
 print(same)
 makeDifferent(same)
+
+myList = [1, 2, 3, 4]
+myOtherList = [5, 6, 7, 8]
+
+print(myList, myOtherList)
+print(myList + myOtherList)
+
+# makeDifferent(myList, myOtherList) # no bueno
+
+def printinfo( arg1, *vartuple ):
+   print ("Output is: ")
+   print (arg1)
+   for var in vartuple:
+      print (var)
+   return;
+
+# Now you can call printinfo function
+printinfo( 10 )
+printinfo( 70, 60, 50, "hi", ["nick", 1, {"name" : "nick"}] )

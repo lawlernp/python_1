@@ -62,3 +62,19 @@ def printinfo( arg1, *vartuple ):
 # Now you can call printinfo function
 printinfo( 10 )
 printinfo( 70, 60, 50, "hi", ["nick", 1, {"name" : "nick"}] )
+
+# prints a log of what was types after prompt
+# logs = input("Enter your input: ")
+# print ("Received input is : ", logs)
+
+# rotate list left by 1
+myList = myList[1:] + myList[:1]
+
+print(myList)
+
+# rotate list left by 1
+myList = myList[-1:] + myList[:-1]
+
+print(myList)
+
+# pretty cool
